@@ -1,0 +1,120 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main h1 {
+    text-align: center;
+    margin-top: 110px;
+}
+.main h3 {
+    text-align: center;
+}
+.main img {
+   position: absolute;
+    height: 350px;
+    width: 35%;
+    margin-left: 10%;
+   margin-top: 30px;
+}
+
+.form {
+    /* font-family: Arial, sans-serif; */
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60%;
+    margin-top: 30px;
+}
+
+.login-container {
+    background-color:rgb(249, 249, 249);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(232, 228, 228);;
+    height: 350px;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+}
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #1f2dc6;
+    border-radius: 5px;
+}
+.login-container button[type="submit"] {
+    background-color: #f7f0f0;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.login-container button[type="submit"]:hover {
+    background-color: #ebeeee;
+}
+.are-you {
+    text-align: center;
+}
+.are-you .btn {
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+.are-you h1 {
+    padding-top: 50px; 
+    text-align: center;
+}
+.are-you .btn a {
+
+  text-decoration: none;
+  color: white;
+}
+
+.about {
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: wheat;
+}
+.about h3 {
+    text-align: center;
+     font-size: 36px; 
+     padding-bottom: 10px;
+}
+.about p {
+    font-size: 26px;
+}
+
+.card-container {
+    display: inline-block;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.card {
+    width: 200px;
+    height: 300px;
+    border: 2px solid rgb(203, 31, 31);
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(136, 26, 26);
+    transition-duration: 1s;
+    
+}
+.desc {
+    padding: 0 2px 0 2px;
+}
+img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.card:hover{
+    box-shadow: 0 8px 16px rgb(157, 42, 42);
+}

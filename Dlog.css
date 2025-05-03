@@ -1,0 +1,45 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form {
+    font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+}
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(203, 12, 12, 0.822);
+}
+.login-container h2 {
+    margin-bottom: 20px;
+}
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-container button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.login-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
